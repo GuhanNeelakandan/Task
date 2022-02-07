@@ -12,7 +12,7 @@ var k=3
 console.log(rotate(num,k))
 
 //Rotate an array by k times IIFE function
-(()=>{
+(function(){
 	var rotate=function(nums,k){
 		let i=0;
 		while(i<k){

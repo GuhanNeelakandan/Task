@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 30px;
+    height: 300px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h1{
+      font-size: 4em;
+      text-align: center;
+  }
+  .text{
+      text-align: center;
+      letter-spacing: 1.5px;
+  }
