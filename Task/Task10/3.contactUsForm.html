@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contactForm.css" />
+</head>
+<body>
+    <h3>Contact Form</h3>
+
+    <div class="container">
+      <form action="">
+        <label for="fname">First Name<span style="color: red;">*</span></label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." maxlength="20" required>
+    
+        <label for="lname">Last Name<span style="color: red;">*</span></label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.."maxlength="20" required>
+    
+        <label for="country">Country<span style="color: red;">*</span></label>
+        <select id="country" name="country">
+          <option value="india">India</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="mobile">Mobile<span style="color: red;">*</span></label>
+        <input type="text" id="mobile" name="Mobile" placeholder="Your mobile number" minlength="10" maxlength="10" required>
+    
+        <label for="subject">Subject<span style="color: red;">*</span></label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    
+</body>
+</html>

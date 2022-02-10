@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="" />
+</head>
+<style>
+    body{
+                background-color: black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            form{
+                background-color: white;
+                padding: 5px;
+                border: 2px solid black;
+            }
+            .box{
+                background-color: white;
+                padding: 10px;
+                max-width: 400px;
+            }
+            .head{
+                color: white;
+                background-color: red;
+                padding: 5px;
+                margin: 0px;
+            }
+            input{
+                border: none;
+                border-bottom: 2px solid black;
+                text-align: center;
+                font-family: 'Bermuda Script';
+                margin: 2px;
+            }
+            .name{
+                display: flex;
+                justify-content:space-between;
+            }
+            .check{
+                margin-top: 10px;
+            }
+    
+</style>
+<body>
+    <div class="box">
+        <form>
+            <h3 class="head">Yes! I want to subscribe to <i><b>Mag-O-Zine</b></i></h3>
+            <div class="name">
+                <div style="font-family: 'Calibri';font-size: small;">
+                <input type="text" value="Jeo" style="font-family:Brush Script MT;font-weight: bold;"><br>First Name</div>
+            <div style="font-family: 'Calibri';font-size: small;">
+                <input type="text" value="Schmegeggie" style="font-family:Brush Script MT;font-weight: bold;"><br>Last Name</div></div>
+                <div class="address" style="font-family: 'Calibri';font-size: small;width: 90%;">
+                <input type="text" value="1001 Washington Street" style="width:90%;font-family:Brush Script MT;font-weight: bold;"><br>Address</div>
+                <div class="name" style="font-family: 'Calibri';font-size: small;">
+                    <div><input type="text" value="Awfown" style="width:50%;font-family: Brush Script MT;font-weight: bold;"><br>City</div>
+                <div><input type="text" value="CA" style="width: 60%;font-family:Brush Script MT;font-weight: bold;"><br>State</div>
+                <div><input type="text" value="99999" style="width:60%;font-family:Brush Script MT;font-weight: bold;"><br>Zip</div></div>
+                <div class="check">
+                    <b>Subscribe for :</b>
+                    <input type="checkbox" checked>
+                    <span class="checkmark"></span>
+                    <label class="container"><b>1 Year ($19.95)</b></label>
+                    <input type="checkbox"><b>2 Year (35.00)</b>
+                    <div class="check"><b>Send me more information about</b><br>
+                    <input type="checkbox"checked><b>Computer-Zine</b><br>
+                    <input type="checkbox" ><b>Fishing-Zine</b><br>
+                    <input type="checkbox" checked><b>Cat-O-Zine</b></div>
+                </div>
+        </form>
+    </div>
+
+</body>
+</html>

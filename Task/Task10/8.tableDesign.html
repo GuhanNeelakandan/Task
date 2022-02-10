@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+                background-color: black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .box{
+                background-color: white;
+                border: 2px;
+                padding: 5px;
+                width: 500px;
+                height: 268px;
+            }
+            table, th, td {
+                border:2px solid grey;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            th, td {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2 style="text-align: center;">Health Chart</h2>
+
+        <table style="width:100%">
+          <tr>
+            <th rowspan="2">State of Health</th>
+            <th colspan="2">Fasting Value</th> 
+            <th>After Eating</th>
+          </tr>
+          <tr>
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 hours after eating</td>
+          </tr>
+          <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+          </tr>
+          <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+          </tr>
+          <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+          </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
