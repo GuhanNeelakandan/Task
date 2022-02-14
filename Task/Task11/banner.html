@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <style>
+        body{
+                background-color: rgb(255, 255, 255);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .flex-container{
+                margin: auto;
+                border: 10px;
+                padding: 30px;
+                background-color:#333333;
+                width: 500px;
+                height: 800px;
+            }
+            
+            .info-container{
+            display: inline-block;
+            vertical-align: top;
+            padding: 0 0 0 5px;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            text-align: left;
+        }
+        p{
+            display: inline-block;
+            margin:0px;
+        }
+        .float-container {
+            width: 100%;
+            height:200px
+        }
+
+        .float-child {
+        width: 50%;
+        height:100%;
+        float: left;
+        }
+        .yellow{
+            text-align: center;
+        }
+        .blue{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item" style="text-align: center;"><img src="./child.heading.png"; style="height: 80px;vertical-align: middle;"/>
+            <div class="info-container">
+            <p style="color: tomato;font-size:40px;font-weight: bold;">OBESITY</p><br>  
+            <p style="color: white;font-size: 13px;margin: 0px;">CHILDHOOD STATISTICS</p>
+            </div>
+        </div><br>
+        <div class="float-container">
+            <div class="float-child">
+              <div class="yellow" style="background-color: rgb(255, 153, 0);padding: 15px;">
+                <img src="./3child.png" alt="" style="width: 60px;height:40px"><br>
+                <p style="width: 100%;height: 8px;font-weight: bold;font-size: 2em;color: white;"> 1 IN 3</p>
+                <p style="text-align: center;font-size: 10px;margin-top: 0px;color: white;">children and<br>adolescents (ages 2-19)</p>
+                <p style="text-align: center;font-size: 15px;margin-top: 0px;color: white;font-weight: bold;">ARE OVERWEIGHT<BR>OR OBSE</p>
+                <p style="text-align: center;font-size: 13px;margin-top: 0px;color: white;">and almost <b>NONE</b> meet recommended healthy diet and physical activity amount.</p>
+                </div>
+            </div>            
+            <div class="float-child">
+              <div class="blue" style="background-color: rgb(22, 181, 202);padding: 15px;">
+                <p style="color: white;font-size:12px;vertical-align: middle;padding: 0px;margin: 0px;">An estimated</p><br>
+                <p style="padding: 0px;margin: 0px;justify-content: left;text-justify: left;">
+                    <img src="./ketchup.png" style="height: 40px;margin-top: 0px;padding: 0px;vertical-align:top;justify-content: left;">
+                <b style="font-size:31px;color: white;font-weight: 900;padding: 0px;margin: 0px;justify-content: left;">12.5 </b></p><br>
+                <p><b style="font-size: 25px;padding-top: 0px;color: white;padding: 0px;margin: 0px;">MILLION</b></p><br>
+                <p style="font-size: 13px;padding-top: 0px;color: white;padding: 0px;margin: 0px;">children (ages 5 years or <br>younger),spend</p>
+                <p style="font-size: 20px;padding-top: 0px;color: white;padding: 0px;margin: 0px;"><b>32 HOURS / WEEK</b></p>
+                <p style="font-size: 13px;padding-top: 0px;color: white;padding: 0px;margin: 0px;">in <u>child care setting</u> and <br>consume nearly all of their<br>daily calories</p>
+            </div>
+            </div>
+    </div>
+</body>
+</html>
