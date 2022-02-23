@@ -13,7 +13,7 @@ console.log(toTitleCase("WELCOME TO GUVI"));
 string();
 
 
-//Convert all the strings to title caps in a string array in IIFE
+//Convert all the strings to title caps in a string array in IIFE function
 (()=> {function toTitleCase1(str1){
     str1 =str1.toLowerCase().split(' ');
     for( i=0;i<str1.length;i++){
@@ -23,3 +23,17 @@ string();
 }
 console.log(toTitleCase1("WELCOME TO GUVI"));
 })();
+
+
+//Convert all the strings to title caps in a string array in arrow function
+const string =()=>{
+    function toTitleCase(str){
+        str =str.toLowerCase().split(' ');
+        for( i=0;i<str.length;i++){
+            str[i] = str[i].charAt(0).toUpperCase()+str[i].slice(1);
+        }
+        return str.join(' ');
+    }
+    console.log(toTitleCase("WELCOME TO GUVI"));
+    }
+    string();

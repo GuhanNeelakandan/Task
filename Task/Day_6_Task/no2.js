@@ -1,24 +1,3 @@
-//1.fix.html
-// <!DOCTYPE html>
-// <html>
-// <body>
-//  <script>
-//  alert( "I’m JavaScript!");  // " " is the error
-//  </script>
-// </body>
-// </html>
-
-//2...............
-alert("I'm invoked!");
-
-//3..............
-alert("I'm JavaScript!");
-alert('Hello') // this line is not having semicolon
-alert(`Wor
- ld`)
-alert(3 +
-1
-+ 2); // this is multiple line code and its working
 
 //4.................
 let admin=9, fname=10.5; 

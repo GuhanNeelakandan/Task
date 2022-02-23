@@ -15,3 +15,14 @@ function Unique(num) {
 }
 var num = [111,11,11,111,22,222,222];
 Unique(num);
+
+
+//Remove duplicates from an array arrow function
+
+var Unique=(num)=>{
+    let duplicate = [...new Set(num)];
+    console.log(duplicate)
+}
+var num = [111,11,11,111,22,222,222];
+Unique(num);
+

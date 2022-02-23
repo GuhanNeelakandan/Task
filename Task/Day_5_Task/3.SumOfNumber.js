@@ -19,3 +19,13 @@ Sum(a);
         console.log(total1)
     })();
 
+// Sum of all number in an array arrow function
+var c=[1,2,3,4,5,6,7,8,9,10]
+var Sum=(c)=>{
+    var total=0;
+    for(var i in c) { 
+        total += c[i];
+    }
+    console.log(total)
+} 
+Sum(c);
