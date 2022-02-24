@@ -13,96 +13,205 @@
 
 var a=[
   {
-    name: "Afghanistan",
-    topLevelDomain: [
-      ".af"
+    name: {
+      common: "Montenegro",
+      official: "Montenegro",
+      nativeName: {
+        cnr: {
+          official: "Црна Гора",
+          common: "Црна Гора"
+        }
+      }
+    },
+    tld: [
+      ".me"
     ],
-    alpha2Code: "AF",
-    alpha3Code: "AFG",
-    callingCodes: [
-      "93"
+    cca2: "ME",
+    ccn3: "499",
+    cca3: "MNE",
+    cioc: "MNE",
+    independent: true,
+    status: "officially-assigned",
+    unMember: true,
+    currencies: {
+      EUR: {
+        name: "Euro",
+        symbol: "€"
+      }
+    },
+    idd: {
+      root: "+3",
+      suffixes: [
+        "82"
+      ]
+    },
+    capital: [
+      "Podgorica"
     ],
-    capital: "Kabul",
     altSpellings: [
-      "AF",
-      "Afġānistān"
+      "ME",
+      "Crna Gora"
     ],
-    subregion: "Southern Asia",
-    region: "Asia",
-    population: 40218234,
-    latlng: [
-      33,
-      65
-    ],
-    demonym: "Afghan",
-    area: 652230,
-    timezones: [
-      "UTC+04:30"
-    ],
-    borders: [
-      "IRN",
-      "PAK",
-      "TKM",
-      "UZB",
-      "TJK",
-      "CHN"
-    ],
-    nativeName: "افغانستان",
-    numericCode: "004",
-    flags: {
-      svg: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
-      png: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png"
+    region: "Europe",
+    subregion: "Southeast Europe",
+    languages: {
+      cnr: "Montenegrin"
     },
-    currencies: [
-      {
-        code: "AFN",
-        name: "Afghan afghani",
-        symbol: "؋"
-      }
-    ],
-    languages: [
-      {
-        iso639_1: "ps",
-        iso639_2: "pus",
-        name: "Pashto",
-        nativeName: "پښتو"
-      },
-      {
-        iso639_1: "uz",
-        iso639_2: "uzb",
-        name: "Uzbek",
-        nativeName: "Oʻzbek"
-      },
-      {
-        iso639_1: "tk",
-        iso639_2: "tuk",
-        name: "Turkmen",
-        nativeName: "Türkmen"
-      }
-    ],
     translations: {
-      br: "Afeganistão",
-      pt: "Afeganistão",
-      nl: "Afghanistan",
-      hr: "Afganistan",
-      fa: "افغانستان",
-      de: "Afghanistan",
-      es: "Afganistán",
-      fr: "Afghanistan",
-      ja: "アフガニスタン",
-      it: "Afghanistan",
-      hu: "Afganisztán"
-    },
-    flag: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
-    regionalBlocs: [
-      {
-        acronym: "SAARC",
-        name: "South Asian Association for Regional Cooperation"
+      ara: {
+        official: "الجبل الاسود",
+        common: "الجبل الاسود"
+      },
+      ces: {
+        official: "Černá Hora",
+        common: "Černá Hora"
+      },
+      cym: {
+        official: "Montenegro",
+        common: "Montenegro"
+      },
+      deu: {
+        official: "Montenegro",
+        common: "Montenegro"
+      },
+      est: {
+        official: "Montenegro",
+        common: "Montenegro"
+      },
+      fin: {
+        official: "Montenegro",
+        common: "Montenegro"
+      },
+      fra: {
+        official: "Monténégro",
+        common: "Monténégro"
+      },
+      hrv: {
+        official: "Crna Gora",
+        common: "Crna Gora"
+      },
+      hun: {
+        official: "Montenegró",
+        common: "Montenegró"
+      },
+      ita: {
+        official: "Montenegro",
+        common: "Montenegro"
+      },
+      jpn: {
+        official: "モンテネグロ",
+        common: "モンテネグロ"
+      },
+      kor: {
+        official: "몬테네그로",
+        common: "몬테네그로"
+      },
+      nld: {
+        official: "Montenegro",
+        common: "Montenegro"
+      },
+      per: {
+        official: "مونته\u200cنگرو",
+        common: "مونته\u200cنگرو"
+      },
+      pol: {
+        official: "Czarnogóra",
+        common: "Czarnogóra"
+      },
+      por: {
+        official: "Montenegro",
+        common: "Montenegro"
+      },
+      rus: {
+        official: "Черногория",
+        common: "Черногория"
+      },
+      slk: {
+        official: "Čierna Hora",
+        common: "Čierna Hora"
+      },
+      spa: {
+        official: "Montenegro",
+        common: "Montenegro"
+      },
+      swe: {
+        official: "Montenegro",
+        common: "Montenegro"
+      },
+      urd: {
+        official: "مونٹینیگرو",
+        common: "مونٹینیگرو"
+      },
+      zho: {
+        official: "黑山",
+        common: "黑山"
       }
+    },
+    latlng: [
+      42.5,
+      19.3
     ],
-    cioc: "AFG",
-    independent: true
+    landlocked: false,
+    borders: [
+      "ALB",
+      "BIH",
+      "HRV",
+      "UNK",
+      "SRB"
+    ],
+    area: 13812,
+    demonyms: {
+      eng: {
+        f: "Montenegrin",
+        m: "Montenegrin"
+      },
+      fra: {
+        f: "Monténégrine",
+        m: "Monténégrin"
+      }
+    },
+    flag: "🇲🇪",
+    maps: {
+      googleMaps: "https://goo.gl/maps/4THX1fM7WqANuPbB8",
+      openStreetMaps: "https://www.openstreetmap.org/relation/53296"
+    },
+    population: 621718,
+    gini: {
+      2016: 38.5
+    },
+    fifa: "MNE",
+    car: {
+      signs: [
+        "SCG"
+      ],
+      side: "right"
+    },
+    timezones: [
+      "UTC+01:00"
+    ],
+    continents: [
+      "Europe"
+    ],
+    flags: {
+      png: "https://flagcdn.com/w320/me.png",
+      svg: "https://flagcdn.com/me.svg"
+    },
+    coatOfArms: {
+      png: "https://mainfacts.com/media/images/coats_of_arms/me.png",
+      svg: "https://mainfacts.com/media/images/coats_of_arms/me.svg"
+    },
+    startOfWeek: "monday",
+    capitalInfo: {
+      latlng: [
+        42.43,
+        19.27
+      ]
+    },
+    postalCode: {
+      format: "#####",
+      regex: "^(\\d{5})$"
+    }
   }]
 
-  b=a.flag
+  b=a.currencies;
   console.log(b)
