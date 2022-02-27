@@ -14,204 +14,189 @@
 var a=[
   {
     name: {
-      common: "Montenegro",
-      official: "Montenegro",
+      common: "Brunei",
+      official: "Nation of Brunei, Abode of Peace",
       nativeName: {
-        cnr: {
-          official: "Црна Гора",
-          common: "Црна Гора"
+        msa: {
+          official: "Nation of Brunei, Abode Damai",
+          common: "Negara Brunei Darussalam"
         }
       }
     },
     tld: [
-      ".me"
+      ".bn"
     ],
-    cca2: "ME",
-    ccn3: "499",
-    cca3: "MNE",
-    cioc: "MNE",
+    cca2: "BN",
+    ccn3: "096",
+    cca3: "BRN",
+    cioc: "BRU",
     independent: true,
     status: "officially-assigned",
     unMember: true,
     currencies: {
-      EUR: {
-        name: "Euro",
-        symbol: "€"
+      BND: {
+        name: "Brunei dollar",
+        symbol: "$"
+      },
+      SGD: {
+        name: "Singapore dollar",
+        symbol: "$"
       }
     },
     idd: {
-      root: "+3",
+      root: "+6",
       suffixes: [
-        "82"
+        "73"
       ]
     },
     capital: [
-      "Podgorica"
+      "Bandar Seri Begawan"
     ],
     altSpellings: [
-      "ME",
-      "Crna Gora"
+      "BN",
+      "Brunei Darussalam",
+      "Nation of Brunei",
+      "the Abode of Peace"
     ],
-    region: "Europe",
-    subregion: "Southeast Europe",
+    region: "Asia",
+    subregion: "South-Eastern Asia",
     languages: {
-      cnr: "Montenegrin"
+      msa: "Malay"
     },
     translations: {
       ara: {
-        official: "الجبل الاسود",
-        common: "الجبل الاسود"
+        official: "بروناي دار السلام",
+        common: "بروناي"
       },
       ces: {
-        official: "Černá Hora",
-        common: "Černá Hora"
+        official: "Sultanát Brunej",
+        common: "Brunej"
       },
       cym: {
-        official: "Montenegro",
-        common: "Montenegro"
+        official: "Teyrnas Brwnei",
+        common: "Brunei"
       },
       deu: {
-        official: "Montenegro",
-        common: "Montenegro"
+        official: "Sultanat Brunei Darussalam",
+        common: "Brunei"
       },
       est: {
-        official: "Montenegro",
-        common: "Montenegro"
+        official: "Brunei Darussalami Riik",
+        common: "Brunei"
       },
       fin: {
-        official: "Montenegro",
-        common: "Montenegro"
+        official: "Brunei Darussalamin valtio",
+        common: "Brunei"
       },
       fra: {
-        official: "Monténégro",
-        common: "Monténégro"
+        official: "État de Brunei Darussalam",
+        common: "Brunei"
       },
       hrv: {
-        official: "Crna Gora",
-        common: "Crna Gora"
+        official: "Nacija od Bruneja, Kuću Mira",
+        common: "Brunej"
       },
       hun: {
-        official: "Montenegró",
-        common: "Montenegró"
+        official: "Brunei Szultanátus",
+        common: "Brunei"
       },
       ita: {
-        official: "Montenegro",
-        common: "Montenegro"
+        official: "Nazione di Brunei, Dimora della Pace",
+        common: "Brunei"
       },
       jpn: {
-        official: "モンテネグロ",
-        common: "モンテネグロ"
+        official: "ブルネイ、平和の精舎の国家",
+        common: "ブルネイ・ダルサラーム"
       },
       kor: {
-        official: "몬테네그로",
-        common: "몬테네그로"
+        official: "브루나이 다루살람국",
+        common: "브루나이"
       },
       nld: {
-        official: "Montenegro",
-        common: "Montenegro"
+        official: "Natie van Brunei, de verblijfplaats van de Vrede",
+        common: "Brunei"
       },
       per: {
-        official: "مونته\u200cنگرو",
-        common: "مونته\u200cنگرو"
+        official: "برونئی سرای صلح",
+        common: "برونئی"
       },
       pol: {
-        official: "Czarnogóra",
-        common: "Czarnogóra"
+        official: "Państwo Brunei Darussalam",
+        common: "Brunei"
       },
       por: {
-        official: "Montenegro",
-        common: "Montenegro"
+        official: "Nação do Brunei, Morada da Paz",
+        common: "Brunei"
       },
       rus: {
-        official: "Черногория",
-        common: "Черногория"
+        official: "Нация Бруней, обитель мира",
+        common: "Бруней"
       },
       slk: {
-        official: "Čierna Hora",
-        common: "Čierna Hora"
+        official: "Brunejský sultanât",
+        common: "Brunej"
       },
       spa: {
-        official: "Montenegro",
-        common: "Montenegro"
+        official: "Nación de Brunei, Morada de la Paz",
+        common: "Brunei"
       },
       swe: {
-        official: "Montenegro",
-        common: "Montenegro"
+        official: "Brunei Darussalam",
+        common: "Brunei"
       },
       urd: {
-        official: "مونٹینیگرو",
-        common: "مونٹینیگرو"
+        official: "ریاستِ برونائی دارالسلام",
+        common: "برونائی"
       },
       zho: {
-        official: "黑山",
-        common: "黑山"
+        official: "文莱和平之国",
+        common: "文莱"
       }
     },
     latlng: [
-      42.5,
-      19.3
+      4.5,
+      114.66666666
     ],
     landlocked: false,
     borders: [
-      "ALB",
-      "BIH",
-      "HRV",
-      "UNK",
-      "SRB"
+      "MYS"
     ],
-    area: 13812,
+    area: 5765,
     demonyms: {
       eng: {
-        f: "Montenegrin",
-        m: "Montenegrin"
+        f: "Bruneian",
+        m: "Bruneian"
       },
       fra: {
-        f: "Monténégrine",
-        m: "Monténégrin"
+        f: "Brunéienne",
+        m: "Brunéien"
       }
     },
-    flag: "🇲🇪",
+    flag: "🇧🇳",
     maps: {
-      googleMaps: "https://goo.gl/maps/4THX1fM7WqANuPbB8",
-      openStreetMaps: "https://www.openstreetmap.org/relation/53296"
+      googleMaps: "https://goo.gl/maps/4jb4CqBXhr8vNh579",
+      openStreetMaps: "https://www.openstreetmap.org/relation/2103120"
     },
-    population: 621718,
-    gini: {
-      2016: 38.5
-    },
-    fifa: "MNE",
+    population: 437483,
+    fifa: "BRU",
     car: {
       signs: [
-        "SCG"
+        "BRU"
       ],
-      side: "right"
+      side: "left"
     },
     timezones: [
-      "UTC+01:00"
+      "UTC+08:00"
     ],
     continents: [
-      "Europe"
+      "Asia"
     ],
-    flags: {
-      png: "https://flagcdn.com/w320/me.png",
-      svg: "https://flagcdn.com/me.svg"
-    },
-    coatOfArms: {
-      png: "https://mainfacts.com/media/images/coats_of_arms/me.png",
-      svg: "https://mainfacts.com/media/images/coats_of_arms/me.svg"
-    },
-    startOfWeek: "monday",
-    capitalInfo: {
-      latlng: [
-        42.43,
-        19.27
-      ]
-    },
-    postalCode: {
-      format: "#####",
-      regex: "^(\\d{5})$"
-    }
+    flags: [
+      "https://flagcdn.com/bn.svg",
+      "https://flagcdn.com/w320/bn.png"
+    ]
   }]
+  
 
-  b=a.currencies;
+  b=a[0].currencies["BND"]
   console.log(b)
