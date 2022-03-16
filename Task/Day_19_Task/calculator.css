@@ -1,23 +1,41 @@
- button{
-    width: 100%;
-    border: none;
-    background-color: #ddd;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
- }
- button:hover {
-    background-color: #047baa;
-  }
-  body {
-    margin: 0;
-    padding: 0;
-    background:rgb(0, 0, 0);
-    }
-    .container {
-        justify-content: center;
-        align-items: center;
-        width: 25%;
-        height: 50%;
-        }
-        
+
+.h1{
+    color:rgb(0, 0, 0);
+}
+.container{
+    background-color: #c5c3c0;
+    padding-bottom: 20px;
+    border:2px solid rgb(153, 105, 105);
+    border-radius: 10px;
+   
+}
+#show{
+    background: rgb(201, 201, 201);
+    border: solid rgb(61, 61, 61);
+    border-radius: 10px;
+    margin: 20px;
+    width: 90%;
+    height:20%;
+    padding: 15px;
+    font-size:25px;
+}
+.row{
+    margin-left: 3%;
+    margin-right: 5%;
+    border:1px solid black;
+    border-radius: 10px;
+}
+.cut{
+    border:none;
+}
+
+.disp{
+    height: 3.5em;
+    width: 16em;
+    margin: 1em;
+    border: 0.3em solid black;
+    border-radius: 0.5em;
+}
+.btn:hover{
+    background-color: rgb(156, 155, 245);
+}
