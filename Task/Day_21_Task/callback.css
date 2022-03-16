@@ -1,0 +1,36 @@
+
+.font{
+    font-size: 7em;
+    color: #000000;
+}
+.fontnew{
+    /* font-family: 'Cinzel', serif; */
+    font-family: 'Mea Culpa', cursive;
+    font-size: 4.7em;
+    color: #000000;
+    font-weight: 900;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #fd4848, #f29cfa, #aae8ff, #84f3d9);
+    background-size: 800% 800%;
+    animation: gradient 1s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.bg{
+    width: 400px;
+    height: 200px;
+ 
+    }
